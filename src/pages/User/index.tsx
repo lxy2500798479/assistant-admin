@@ -36,7 +36,7 @@ const UserPage: React.FC = () => {
   };
 
   return (
-    <PageContainer ghost>
+    <div>
       <Layout className="bg-white rounded-lg overflow-hidden" style={{ minHeight: 'calc(100vh - 180px)' }}>
         <Sider width={200} className="bg-gray-50" theme="light">
           <Menu
@@ -51,7 +51,7 @@ const UserPage: React.FC = () => {
           <Outlet />
         </Content>
       </Layout>
-    </PageContainer>
+    </div>
   );
 };
 

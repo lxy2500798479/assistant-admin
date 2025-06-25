@@ -39,17 +39,17 @@ export default defineConfig({
             },
             {
               path: '/user/management',
-              component: 'components/User/UserManagement/index',
+              component: './User/components/UserManagement',
               title: '用户管理',
             },
             {
               path: '/user/level',
-              component: 'components//LevelManagement/index',
+              component: './User/components/LevelManagement',
               title: '等级管理',
             },
             {
               path: '/user/settings',
-              component: 'components/User/UserSettings/index',
+              component: './User/components/UserSettings',
               title: '用户设置',
             },
           ],

@@ -11,7 +11,7 @@ const GlobalHeader: React.FC = () => {
         {/* --- 头部左侧部分 --- */}
         <div className={'flex '}>
           <h2 className="text-xl font-semibold">聚合聊天</h2>
-          <h2 className="text-xl font-semibold">聚合聊天</h2>
+
         </div>
 
         {/* --- 头部右侧部分 --- */}

@@ -56,11 +56,7 @@ const BasicLayout: React.FC = () => {
             <Outlet />
           </div>
         </Content>
-        {/*<Content className="m-4 md:m-6 flex flex-col">*/}
-        {/*  <div className="p-6 bg-white rounded-lg flex-1">*/}
-        {/*    <Outlet />*/}
-        {/*  </div>*/}
-        {/*</Content>*/}
+
       </Layout>
     </Layout>
   );
